@@ -777,6 +777,16 @@ main {
   font-size: var(--fs-6);
   line-height: 1.3;
   margin-bottom: 7px;
+  display:flex;
+  column-gap: 5px;
+  align-items: center;
+}
+.timeline-item-title > span {
+  color:white !important;
+}
+
+.timeline-item-title:hover{
+  text-decoration: underline;
 }
 
 .timeline-list span {
