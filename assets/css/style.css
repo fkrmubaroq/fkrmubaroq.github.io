@@ -1884,3 +1884,14 @@ textarea.form-input::-webkit-resizer { display: none; }
 .object-cover{
   object-fit: cover;
 }
+
+.resume-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--orange-yellow-crayola);
+  padding: 10px 20px;
+  border-radius: 50px;
+  color: var(--smoky-black);
+}
